@@ -146,6 +146,20 @@ textarea:focus {
   width: 60%;
   background: rgba(0, 0, 0, 0.5843);
 }
+.header__form__wrap_arrow {
+  position: absolute;
+  bottom: 3.3rem;
+  right: 2rem;
+}
+.header__form__wrap_arrow button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.header__form__wrap_arrow button img {
+  width: 41px;
+  height: 41px;
+}
 .header__form__wrap_input {
   display: flex;
   flex-direction: column;
@@ -179,11 +193,6 @@ textarea:focus {
   background: transparent;
   color: #fff;
   border: none;
-}
-.header__form svg {
-  position: absolute;
-  bottom: 3.3rem;
-  right: 2rem;
 }
 .header__btn {
   cursor: pointer;

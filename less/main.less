@@ -179,6 +179,20 @@ button, input, a, textarea {
     width: 60%;
     background: rgba(0, 0, 0, 0.5843);
     &__wrap {
+      &_arrow {
+        position: absolute;
+        bottom: 3.3rem;
+        right: 2rem;
+        button {
+          cursor: pointer;
+          background:none;
+          border:none;
+          img {
+            width: 41px;
+            height: 41px;
+          }
+        }
+      }
       &_input {
         display: flex;
         flex-direction: column;
@@ -213,11 +227,6 @@ button, input, a, textarea {
       background: transparent;
       color: @text;
       border: none;
-    }
-    svg {
-      position: absolute;
-      bottom: 3.3rem;
-      right: 2rem;
     }
   } 
   // btn get in touch
